@@ -38,7 +38,7 @@ public class demo
     {
         Scanner sc = new Scanner(System.in);
         int temp = sc.nextInt();
-        if(temp<0) System.out.println("Hibernating");
+        if(temp<0) System.out.println("Hibernating");   
         else if(temp>=0 && temp<=20) System.out.println("Snoozing");
         else if(temp>=21 && temp<=35) System.out.println("Awake");
         else System.out.println("Angry");
@@ -47,8 +47,17 @@ public class demo
 ```
 
 ## OUTPUT:
+| Input | Expected   | Got         | Status |
+|-------|------------|-------------|--------|
+| -5    | Hibernating | Hibernating | ✓ |
+| 15    | Snoozing    | Snoozing    | ✓ |
+| 25    | Awake       | Awake       | ✓ |
+| 40    | Angry       | Angry       | ✓ |
+
+**Passed all tests! ✓**
 
 
 ## RESULT:
 Therefore, the program reads the temperature and correctly displays the dragon’s state according to the given conditions.
+
 
