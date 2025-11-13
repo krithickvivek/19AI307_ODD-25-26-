@@ -1,7 +1,7 @@
 # Ex.No:1(C) LOOPING STATEMENT
 
 ## QUESTION:
-Print a right-angled triangle star pattern
+Construct a right-angled triangle star pattern using for loop
 
 ## AIM:
 To print a right-angled triangle star pattern using simple nested loops.
@@ -57,3 +57,4 @@ public class demo
 
 ## RESULT:
 Therefore, the program takes the number of rows and prints a right-angled star pattern correctly using nested loops.
+
