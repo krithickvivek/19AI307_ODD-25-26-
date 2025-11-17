@@ -124,3 +124,4 @@ public class StudentSerializationUserInput {
 
 ## RESULT:
 Therefore, the program successfully stores a collection of Student objects in a file through serialization and later retrieves them correctly using deserialization, demonstrating persistent object storage.
+
