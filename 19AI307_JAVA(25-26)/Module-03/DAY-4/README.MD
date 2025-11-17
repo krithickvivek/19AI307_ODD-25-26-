@@ -3,8 +3,8 @@
 ## QUESTION:
 You are programming bots that analyze weather data. Each bot must implement a common interface and give a prediction.
 - Bot Types:
- -SunBot: Predicts "HOT" if temperature > 30, else "MODERATE".
- -RainBot: Predicts "COLD" if temperature < 20, else "WARM".
+ - SunBot: Predicts "HOT" if temperature > 30, else "MODERATE".
+ - RainBot: Predicts "COLD" if temperature < 20, else "WARM".
 
 
 ## AIM:
@@ -68,4 +68,5 @@ public class Main {
 
 ## RESULT:
 Therefore, the program selects the appropriate bot, processes the temperature, and prints a weather prediction according to the bot’s logic.
+
 
